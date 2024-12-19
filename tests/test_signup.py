@@ -3,7 +3,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urls import LOGIN_PAGE_URL
 from locators import Locators
-from data_helper import NAME, get_random_email, get_random_password
+from data import NAME
+from data_helper import get_random_email, get_random_password
 
 
 @pytest.mark.usefixtures("driver")

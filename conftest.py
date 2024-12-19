@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from locators import Locators
 from urls import STELLAR_BURGERS_URL
-from data_helper import EMAIL, PASSWORD
+from data import EMAIL, PASSWORD
 
 
 @pytest.fixture

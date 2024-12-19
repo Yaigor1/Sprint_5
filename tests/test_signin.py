@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urls import STELLAR_BURGERS_URL
 from locators import Locators
-from data_helper import EMAIL, PASSWORD
+from data import EMAIL, PASSWORD
 
 
 @pytest.mark.usefixtures("driver")
